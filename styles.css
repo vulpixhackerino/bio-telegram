@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Consolas";
+  src: url('fonts/Consolas.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Dosis";
+  src: url('fonts/Dosis.ttf') format('truetype');
+}
+
+body{
+  margin: 0 auto;
+  line-height: 1.6;
+  max-width: 60ch;
+  background-image: url('img/esag.png');
+  background-size: 25px 25px;
+}
+
+#titolo-1{
+  text-align: center;
+  font-family: "Consolas";
+  color: greenyellow;
+  text-shadow: 0 0 12px green;
+}
+
+#logo{
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+}
+
+.scritte{
+  font-family: "Dosis";
+}
+
+nav a{
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  font-family: "Consolas";
+  color: greenyellow;
+  text-shadow: 0 0 12px green;
+}
+
+h2{
+  font-family: "Dosis";
+  text-align: center;
+}
+
+.icons{
+  max-width: 1.4em;
+  margin-right: 10px;
+}
+
+footer{
+  font-size: .85em;
+  font-family: "Dosis";
+  text-align: left;
+}
