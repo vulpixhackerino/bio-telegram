@@ -34,6 +34,7 @@ body{
 }
 
 .scritte{
+  text-align: center;
   font-family: "Dosis";
 }
 
@@ -51,11 +52,6 @@ a{
   text-shadow: 0 0 12px green;
 }
 
-h2{
-  font-family: "Dosis";
-  text-align: center;
-}
-
 .icons{
   max-width: 1.4em;
   margin-right: 10px;
@@ -65,4 +61,5 @@ footer{
   font-size: .85em;
   font-family: "Dosis";
   text-align: left;
+  border-bottom: 50px;
 }
