@@ -23,14 +23,32 @@ body{
   text-shadow: 0 0 12px green;
 }
 
+@keyframes appear {
+  from {
+    width: 0px;
+  }
+  to {width: 150px;}
+}
+
+@keyframes hover {
+  from {
+    padding: 4px 6px;
+  }
+  to {
+    padding: 10px;
+    font-size: 30px;
+  }
+}
+
 #logo{
   border-radius: 50%;
-  width: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  
+  width: 150px;
+  animation-name: appear; 
+  animation-duration: 3s;
 }
 
 .scritte{
@@ -44,12 +62,26 @@ nav a{
   border-radius: 12px;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: none;
 }
 
-a{
+.links:hover{
+  padding: 10px;
+  font-size: 25px;
+}
+
+.links {
   font-family: "Consolas";
   color: greenyellow;
   text-shadow: 0 0 12px green;
+  transition: font-size 500ms, padding 500ms;
+}
+
+#donot {
+  font-family: "Consolas";
+  color: greenyellow;
+  text-shadow: 0 0 12px green;
+  text-decoration: none;
 }
 
 .icons{
@@ -58,6 +90,7 @@ a{
 }
 
 footer{
+  margin-top:30px;
   font-size: .85em;
   font-family: "Dosis";
   text-align: left;
