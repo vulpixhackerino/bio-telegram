@@ -9,9 +9,12 @@
 }
 
 body{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.6;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
   max-width: 60ch;
   background-image: url('img/esag.png');
   background-size: 25px 25px;
