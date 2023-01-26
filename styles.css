@@ -11,6 +11,7 @@
 body{
   margin: 0 auto;
   line-height: 1.6;
+  padding: 30px;
   max-width: 60ch;
   background-image: url('img/esag.png');
   background-size: 25px 25px;
@@ -58,7 +59,7 @@ body{
 
 nav a{
   display: inline-block;
-  padding: 4px 6px;
+  padding: 4px 4px;
   border-radius: 12px;
   margin-left: auto;
   margin-right: auto;
@@ -67,7 +68,7 @@ nav a{
 
 .links:hover{
   padding: 10px;
-  font-size: 25px;
+  font-size: 17px;
 }
 
 .links {
