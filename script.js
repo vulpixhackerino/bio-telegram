@@ -1,5 +1,5 @@
 var i = 0;
-var title = 'vulpi ~ @pulpix';
+var title = 'vulpi ~ @pulvix';
 var titolo = document.getElementById("titolo-1");
 
 
